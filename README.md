@@ -13,7 +13,6 @@ A customizable color picker component built with SwiftUI that provides an intuit
 - 📱 Native SwiftUI implementation
 - ⚡️ Real-time color preview
 - 🔄 Binding support for seamless integration
-- 📊 RGB and Hex color value display
 
 ## Installation
 
