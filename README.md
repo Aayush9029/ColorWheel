@@ -29,5 +29,33 @@ Add the following to your `Package.swift` file:
 dependencies: [
     .package(url: "https://github.com/Aayush9029/ColorWheel.git", branch: "main")
 ]
+```
+
+---
+
+## Usage
+
+```swift
+import SwiftUI
+import ColorWheel
+
+struct ColorPickerView: View {
+    @State private var rgbColor: RGB = .init(r: 0, g: 0, b: 1)
+    
+    var body: some View {
+        VStack {
+            Rectangle()
+                .fill(rgbColor.color)
+            
+            ColorWheelView(
+                color: $rgbColor,
+                brightness: .constant(1)
+            )
+        }
+    }
+}
+
+```
+
 
 
