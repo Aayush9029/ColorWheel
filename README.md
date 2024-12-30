@@ -17,11 +17,18 @@ A customizable color picker component built with SwiftUI that provides an intuit
 
 ## Installation
 
+### Xcode Package Dependency
+```
+https://github.com/Aayush9029/ColorWheel.git
+```
+
 ### Swift Package Manager
 
 Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/Aayush9029/ColorWheel.git", from: "1.0.0")
+    .package(url: "https://github.com/Aayush9029/ColorWheel.git", branch: "main")
 ]
+
+
